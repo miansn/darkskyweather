@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /src
-    destination: /home/ubuntu
-  - source: /scripts
     destination: /home/ubuntu/darkskyweather
+  - source: /scripts
+    destination: /home/ubuntu/scripts
 hooks:
   AfterInstall:
     - location: scripts/install_dependencies
