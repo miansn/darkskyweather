@@ -2,5 +2,4 @@
 
 cd /home/ubuntu/darkskyweather
 git checkout pipeline
-sudo rm -rf scripts
 yarn install
