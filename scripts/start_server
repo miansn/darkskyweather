@@ -1,4 +1,5 @@
 #!/bin/bash
 cp /home/ubuntu/.env /home/ubuntu/darkskyweather/.env
 cd /home/ubuntu/darkskyweather
+git checkout pipeline
 yarn start
