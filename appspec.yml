@@ -1,9 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /src
-    destination: /home/ubuntu/darkskyweather
-  - source: /package.json
+  - source: /
     destination: /home/ubuntu/darkskyweather
   - source: /scripts
     destination: /home/ubuntu/scripts
