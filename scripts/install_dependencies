@@ -1,4 +1,5 @@
 #!/bin/bash
 
 cd /home/ubuntu/darkskyweather
+git checkout pipeline
 yarn install
