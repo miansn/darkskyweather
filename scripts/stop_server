@@ -2,3 +2,4 @@
 
 pkill -f node
 rm -rf darkskyweather
+rm -rf scripts

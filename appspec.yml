@@ -1,7 +1,9 @@
 version: 0.0
 os: linux
 files:
-  - source: /
+  - source: /src
+    destination: /home/ubuntu/darkskyweather
+  - source: /package.json
     destination: /home/ubuntu/darkskyweather
   - source: /scripts
     destination: /home/ubuntu/scripts
@@ -13,7 +15,7 @@ hooks:
   ApplicationStart:
     - location: scripts/start_server
       timeout: 300
-      runas: ubuntu
+      runas: root
   ApplicationStop:
     - location: scripts/stop_server
       timeout: 300
