@@ -1,4 +1,4 @@
 #!/bin/bash
-
 cd /home/ubuntu/darkskyweather
 yarn install
+yarn upgrade
