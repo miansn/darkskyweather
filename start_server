@@ -1,4 +1,3 @@
 #!/bin/bash
-sudo cp /home/ubuntu/.env /home/ubuntu/darkskyweather/.env
 cd /home/ubuntu/darkskyweather
 yarn start > /dev/null 2>&1 &
